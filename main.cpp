@@ -4,14 +4,13 @@
 using namespace std;
 int main (){
 
-    float n = 3.14159;
-    float raio;
-    float area = 0;
-    cin>>fixed>>setprecision(2);
+    double n = 3.14159;
+    double raio, area;
+   
     cin>>raio;
     area = n*raio*raio;
-    cout<<fixed<<setprecision(4)<<endl;
+    cout<<fixed<<setprecision(4);
     cout<<"A="<<area<<endl;
-
+    
     return 0;
 }
