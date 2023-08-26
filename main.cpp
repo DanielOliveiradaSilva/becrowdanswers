@@ -1,8 +1,8 @@
 #include <iostream>
-//Questão 1000 do uri
+//Questão 1001 do uri
 using namespace std;
 int main (){
-
-    cout<<"Hellow"<<endl;
-    return 0;
+    int x, y;
+    cin>>x>>y;
+    cout<<"X = "<< x+y<<endl;
 }
